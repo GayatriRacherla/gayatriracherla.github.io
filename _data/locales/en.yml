@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Blog
+  categories: Categories
   tags: Tags
   archives: Timeline
   about: About
@@ -73,13 +73,12 @@ post:
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
-df:
+date_format:
+  tooltip: '%a, %b %e, %Y, %l:%M %p %z'
   post:
-    strftime: "%b %e, %Y"
-    dayjs: "ll"
-  archives:
-    strftime: "%b"
-    dayjs: "MMM"
+    long: '%b %e, %Y'
+    short: '%b %e'
+    archive_month: '%b'
 
 # categories page
 categories:

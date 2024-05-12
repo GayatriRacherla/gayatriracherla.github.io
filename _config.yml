@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -19,7 +19,7 @@ title: RatefinderCA # the main title
 tagline: One stop for all your mortgage needs.  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  mortgageneeds, canada, theratefinderca, ratefinder
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,17 +29,17 @@ github:
   username: github_username # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: theratefinder # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: theratefinder
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/theratefinder # change to your twitter homepage
+    - https://github.com/theratefinder # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -73,7 +73,7 @@ theme_mode: # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://imgur.com/a/IHjXyBM
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://imgur.com/a/IHjXyBM
@@ -126,7 +126,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "https://gayatriracherla.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
